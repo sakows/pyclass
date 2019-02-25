@@ -1,8 +1,8 @@
-# print('My name is')
-# for i in range(5):
-    # print('elgun',i)
-    # print('letsdo it')
-# 
+ print('My name is')
+ for i in range(5):
+     print('elgun',i)
+     print('letsdo it')
+
 
 # total=0
 # for i in range(11):
@@ -27,12 +27,12 @@
 # for i in range(5):
 #     print(random.randint(1,10))
 
-import sys
-while True:
-    print('Type exit')
-    resp=input()
-    if resp=='exit':
-        sys.exit()
+#import sys
+#while True:
+ #   print('Type exit')
+  #  resp=input()
+   # if resp=='exit':
+   #     sys.exit()
         #break
 
 print('Sako is running')
