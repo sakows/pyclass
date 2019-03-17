@@ -10,5 +10,5 @@ elif name=='elgun12':
 else:
     print('Not found')
 
-if name=='elgun12':
+if name=='elgun123232':
     print('His name is : ',name)
