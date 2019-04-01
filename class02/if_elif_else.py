@@ -1,14 +1,12 @@
-name='elgun12'
-age=25
+def spam(a):
+    return 42/a
+try:
+    print(spam(3.0))
+    print(spam(0))
+    print(spam(6))
+    print(spam(12))
 
-if name=='elgun' or  age<24:
-    print('His name is : ',name,'and his age is: ',age)
-elif name=='elgun12':
-    print('His name is : ',name)
-elif name=='elgun12':
-    print('His name is : ',name)
-else:
-    print('Not found')
 
-if name=='elgun123232':
-    print('His name is : ',name)
+except ZeroDivisionError:
+    print('great')
+    continue
